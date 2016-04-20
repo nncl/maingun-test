@@ -3,8 +3,8 @@
 require 'vendor/autoload.php';
 use Mailgun\Mailgun;
 //Your credentials
-$mg = new Mailgun("key-c8129ecf8fb6cbb61df0a47fa0d1d7e3");
-$domain = "cauealmeida.com";
+$mg = new Mailgun("YOUR-KEY-HERE");
+$domain = "YOUR-DOMAIN-HERE";
 
 // getting values from fields
 $name = $_POST['name'];
